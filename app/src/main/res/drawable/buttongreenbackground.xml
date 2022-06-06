@@ -3,16 +3,16 @@
     <item android:state_pressed="true">
         <shape android:shape="rectangle">
             <corners android:radius="10dp" />
-            <stroke android:width="2dp" android:color="@color/primary" />
-            <gradient android:angle="90" android:endColor="@color/primary" android:startColor="@color/primary" />
+            <stroke android:width="2dp" android:color="@color/primarypressed" />
+            <gradient android:angle="90" android:endColor="@color/primarypressed" android:startColor="@color/primarypressed" />
         </shape>
     </item>
 
     <item>
         <shape android:shape="rectangle">
             <corners android:radius="10dp" />
-            <stroke android:width="2dp" android:color="@color/primarypressed" />
-            <gradient android:endColor="@color/primarypressed" android:startColor="@color/primarypressed" />
+            <stroke android:width="2dp" android:color="@color/primary" />
+            <gradient android:endColor="@color/primary" android:startColor="@color/primary" />
         </shape>
     </item>
 </selector>

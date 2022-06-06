@@ -4,14 +4,15 @@
     <style name="ButtonGreen">
         <item name="android:background">@drawable/buttongreenbackground</item>
         <item name="android:textColor">@color/white</item>
-        <item name="android:textSize">@dimen/text_margin</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
         <item name="android:layout_gravity">center</item>
-        <item name="android:layout_margin">@dimen/button_margin</item>
+<!--        <item name="android:layout_margin">@dimen/button_margin</item>-->
     </style>
 
     <style name="ButtonConnect" parent="ButtonGreen">
         <item name="android:layout_width">150dp</item>
         <item name="android:layout_height">50dp</item>
+        <item name="android:textAppearance">@style/Text17White</item>
         <item name="android:text">@string/button_connect</item>
     </style>
 
@@ -19,6 +20,7 @@
         <item name="android:layout_width">175dp</item>
         <item name="android:layout_height">50dp</item>
         <item name="android:text">@string/button_edit</item>
+        <item name="android:textAppearance">@style/Text17White</item>
     </style>
 
     <style name="ButtonChangePin" parent="ButtonGreen">
@@ -35,8 +37,8 @@
 
     <style name="ButtonWhite">
         <item name="android:background">@drawable/buttonwhitebackground</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="android:textSize">@dimen/text_margin</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:layout_margin">@dimen/button_margin</item>
     </style>
@@ -44,6 +46,7 @@
     <style name="ButtonClose" parent="ButtonWhite">
         <item name="android:layout_width">96dp</item>
         <item name="android:layout_height">40dp</item>
+        <item name="android:textSize">15sp</item>
         <item name="android:text">@string/button_close</item>
     </style>
 
@@ -79,12 +82,12 @@
     </style>
 
     <style name="Text16Gray" parent="TextStyle">
-        <item name="android:textColor">@color/gray2</item>
+        <item name="android:textColor">@color/gray1</item>
         <item name="android:textSize">16sp</item>
     </style>
 
     <style name="Text17Gray" parent="TextStyle">
-        <item name="android:textColor">@color/gray2</item>
+        <item name="android:textColor">@color/gray1</item>
         <item name="android:textSize">17sp</item>
     </style>
 
@@ -103,8 +106,28 @@
         <item name="android:textSize">20sp</item>
     </style>
 
+    <style name="Text20Green" parent="TextStyle">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Text20Gray" parent="TextStyle">
+        <item name="android:textColor">@color/gray2</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Text22Green" parent="TextStyle">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
     <style name="Text22Black" parent="TextStyle">
         <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="Text22Gray" parent="TextStyle">
+        <item name="android:textColor">@color/gray3</item>
         <item name="android:textSize">22sp</item>
     </style>
 

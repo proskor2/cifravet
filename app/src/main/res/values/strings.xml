@@ -4,9 +4,9 @@
     <string name="text_nocards">Нет карты? Приобрести</string>
     <string name="ihavepets">Есть добавленные питомцы</string>
     <string name="alert_tip_title">Подсказка</string>
-    <string name="alert_tip_text">Приложите приобретенный NFC-токен к устройству для их сопряжения, это не займет много времени. Для успешного перехода дальше потяните в сторону этот текс</string>
+    <string name="alert_tip_text">Приложите приобретенный NFC-токен к устройству для их сопряжения, это не займет много времени</string>
     <string name="button_close">Закрыть</string>
-    <string name="pet_info_empty">Информация о вашем питомцеотсутствует. Перейдите в редактирование для заполнения профиля</string>
+    <string name="pet_info_empty">Информация о вашем питомце отсутствует. Перейдите в редактирование для заполнения профиля</string>
     <string name="button_edit">Редактировать</string>
     <string name="change_pin">Изменить пин-код</string>
     <string name="unpin">Открепить</string>
