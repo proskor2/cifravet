@@ -1,5 +1,9 @@
 package store.dide.cifravet.ui.viewmodels
 
-class StartFragmentViewModel {
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+
+class StartFragmentViewModel: ViewModel() {
+
     
 }

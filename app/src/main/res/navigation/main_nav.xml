@@ -1,6 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/main_nav">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/startFragment">
 
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="store.dide.cifravet.ui.views.StartFragment"
+        android:label="StartFragment"
+        tools:layout="@layout/startscreen_layout">
+        <action
+            android:id="@+id/action_startFragment_to_shopsFragment"
+            app:destination="@id/shopsFragment" />
+        <action
+            android:id="@+id/action_startFragment_to_mainEmptyFragment"
+            app:destination="@id/mainEmptyFragment" />
+        <action
+            android:id="@+id/action_startFragment_to_pinFragment"
+            app:destination="@id/pinFragment" />
+        <action
+            android:id="@+id/action_startFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="store.dide.cifravet.ui.views.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/main_layout">
+        <action
+            android:id="@+id/action_mainFragment_to_editFragment"
+            app:destination="@id/editFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainEmptyFragment"
+        android:name="store.dide.cifravet.ui.views.MainEmptyFragment"
+        android:label="MainEmptyFragment"
+        tools:layout="@layout/main_empty_layout">
+        <action
+            android:id="@+id/action_mainEmptyFragment_to_emailConfirmFragment"
+            app:destination="@id/emailConfirmFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pinFragment"
+        android:name="store.dide.cifravet.ui.views.PinFragment"
+        android:label="PinFragment"
+        tools:layout="@layout/pin_layout"/>
+    <fragment
+        android:id="@+id/shopsFragment"
+        android:name="store.dide.cifravet.ui.views.ShopsFragment"
+        android:label="ShopsFragment"
+        tools:layout="@layout/shops_layout"/>
+    <fragment
+        android:id="@+id/editFragment"
+        android:name="store.dide.cifravet.ui.views.EditFragment"
+        android:label="EditFragment"
+        tools:layout="@layout/shops_layout"/>
+    <fragment
+        android:id="@+id/emailConfirmFragment"
+        android:name="store.dide.cifravet.ui.views.EmailConfirmFragment"
+        android:label="EmailConfirmFragment"
+        tools:layout="@layout/confirm_email_layout">
+        <action
+            android:id="@+id/action_emailConfirmFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
 </navigation>

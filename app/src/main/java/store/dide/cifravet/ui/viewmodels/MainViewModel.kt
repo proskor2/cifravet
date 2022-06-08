@@ -1,4 +1,6 @@
 package store.dide.cifravet.ui.viewmodels
 
-class MainViewModel {
+import androidx.lifecycle.ViewModel
+
+class MainViewModel: ViewModel() {
 }
