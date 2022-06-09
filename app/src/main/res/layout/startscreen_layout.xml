@@ -11,10 +11,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="18dp"
         android:layout_marginEnd="18dp"
-        app:tint="@color/primary"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_baseline_center_focus_strong_24" />
+        app:srcCompat="@drawable/ic_baseline_center_focus_strong_24"
+        app:tint="@color/primary" />
 
     <ImageView
         android:id="@+id/image_titlevet"
@@ -64,8 +66,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
         android:text="@string/text_nocards"
-        app:layout_constraintBottom_toTopOf="@+id/text_ihavepets"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider" />
@@ -78,6 +81,8 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="32dp"
         android:text="@string/ihavepets"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
         style="@style/Text17Gray"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

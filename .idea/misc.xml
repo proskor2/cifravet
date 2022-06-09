@@ -6,9 +6,10 @@
         <entry key="..\:/Android projects/cifravet/app/src/main/res/drawable/alertcorners.xml" value="0.334" />
         <entry key="..\:/Android projects/cifravet/app/src/main/res/drawable/button_white.xml" value="0.3345" />
         <entry key="..\:/Android projects/cifravet/app/src/main/res/drawable/buttongreenbackground.xml" value="0.3175" />
+        <entry key="..\:/Android projects/cifravet/app/src/main/res/drawable/buttonwhitebackground.xml" value="0.322" />
         <entry key="..\:/Android projects/cifravet/app/src/main/res/drawable/round_outline.xml" value="0.334" />
         <entry key="..\:/Android projects/cifravet/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Android projects/cifravet/app/src/main/res/layout/alert_tip.xml" value="0.3296296296296296" />
+        <entry key="..\:/Android projects/cifravet/app/src/main/res/layout/alert_tip.xml" value="0.9" />
         <entry key="..\:/Android projects/cifravet/app/src/main/res/layout/confirm_email_layout.xml" value="0.33" />
         <entry key="..\:/Android projects/cifravet/app/src/main/res/layout/edit_layout.xml" value="0.33" />
         <entry key="..\:/Android projects/cifravet/app/src/main/res/layout/fragment_blank.xml" value="0.8360655737704918" />
@@ -18,7 +19,7 @@
         <entry key="..\:/Android projects/cifravet/app/src/main/res/layout/pin_layout.xml" value="1.25" />
         <entry key="..\:/Android projects/cifravet/app/src/main/res/layout/shops_layout.xml" value="0.22" />
         <entry key="..\:/Android projects/cifravet/app/src/main/res/layout/splashscreen_layout.xml" value="0.22" />
-        <entry key="..\:/Android projects/cifravet/app/src/main/res/layout/startscreen_layout.xml" value="0.33" />
+        <entry key="..\:/Android projects/cifravet/app/src/main/res/layout/startscreen_layout.xml" value="0.5" />
         <entry key="..\:/Android projects/cifravet/app/src/main/res/menu/main_menu.xml" value="0.8337236533957846" />
       </map>
     </option>

@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <style name="MainThemeLight" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/primary</item>
+
+    </style>
+
+
 //buttons
     <style name="ButtonGreen">
         <item name="android:background">@drawable/buttongreenbackground</item>

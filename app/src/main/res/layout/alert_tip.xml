@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/image_alert_tip"
         android:layout_width="250dp"
         android:layout_height="140dp"
         android:layout_marginStart="16dp"
@@ -39,10 +39,10 @@
         android:textAppearance="@style/Text13Dark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toBottomOf="@+id/image_alert_tip" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button"
+        android:id="@+id/button_alert_tip_close"
         style="@style/ButtonWhite"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
